@@ -1,1 +1,139 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h2, p {
+  margin-bottom: 30px;
+}
+
+.header {
+  position: absolute;
+  width: 1920px;
+  left: 75px;
+  top: 20px;
+  overflow: visible;
+}
+.header .main-pic {
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.header .logo {
+  width: 35px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .header .main-pic {
+    width: 100px;
+    margin: 0;
+  }
+  .header .logo {
+    width: 50px;
+    margin: 10px 0 0 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .header .main-pic {
+    width: 220px;
+    margin: 70px 0 0 0;
+  }
+  .header .logo {
+    width: 75px;
+    margin: 150px 0 0 300px;
+  }
+}
+.header .header-image {
+  width: 160px;
+}
+@media (min-width: 768px) {
+  .header .header-image {
+    width: 800px;
+    margin-left: 0;
+  }
+}
+.header h2, .header h3 {
+  width: auto;
+  text-align: right;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .header h2, .header h3 {
+    width: auto;
+    text-align: right;
+    margin: 0;
+  }
+  .header .main-pic {
+    float: left;
+  }
+}
+.header .navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header .menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header .menu li {
+  margin-right: 20px;
+}
+.header .menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.header .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+@media (max-width: 768px) {
+  .header .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+  .header .menu.active {
+    display: flex;
+  }
+  .header .hamburger-menu {
+    display: flex;
+  }
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.black {
+  background-color: #272727;
+}
+
+.green {
+  background-color: #c0e6de;
+}
+
+.grey {
+  background-color: #d3d0cb;
+}
+
+#about {
+  margin-top: 100px;
+}/*# sourceMappingURL=main.css.map */

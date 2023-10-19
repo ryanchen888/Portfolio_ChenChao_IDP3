@@ -1,0 +1,132 @@
+.header {
+    position: absolute;
+    width: 1920px;
+    left: 75px;
+    top: 20px;
+    overflow: visible;
+
+    .main-pic {
+        width: 80px;
+        margin: 0 auto; 
+        border-radius: 50%;
+    }
+    
+    .logo {
+        width: 35px;
+        margin: 0; 
+    }
+    
+   
+    @media (min-width: 768px) {
+        .main-pic {
+            width: 100px; 
+            margin: 0; 
+        }
+    
+        .logo {
+            width: 50px; 
+            margin: 10px 0 0 50px; 
+        }
+    }
+    
+    
+    @media (min-width: 1200px) {
+        .main-pic {
+            width: 220px;
+            margin: 70px 0 0 0; 
+        }
+    
+        .logo {
+            width: 75px;
+            margin: 150px 0 0 300px; 
+        }
+    }
+    
+
+    .header-image {
+        width: 160px;
+    }
+    @media (min-width: 768px) {
+        .header-image {
+            width: 800px; 
+            margin-left: 0;
+        }
+    }
+
+    h2, h3 {
+        width: auto; 
+        text-align: right; 
+        margin: 0; 
+    }
+    
+    @media (min-width: 768px) {
+        h2, h3 {
+            width: auto; 
+            text-align: right;
+            margin: 0; 
+        }
+    
+        .main-pic {
+            float: left; 
+        }
+    }
+
+    .navbar {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    
+    .menu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu li {
+        margin-right: 20px;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .hamburger-menu {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+    }
+    
+    
+    @media (max-width: 768px) {
+        .menu {
+            display: none;
+            flex-direction: column;
+            background-color: #333;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+        }
+    
+        .menu.active {
+            display: flex;
+        }
+    
+        .hamburger-menu {
+            display: flex;
+        }
+    }
+}
