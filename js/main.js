@@ -1,3 +1,4 @@
+
 (function(){
 	"use strict";	
 	console.log("fired");
@@ -11,4 +12,7 @@
 	};
 
 	button.addEventListener("click", hamburgerMenu, false);		
+
+	
 })();
+
