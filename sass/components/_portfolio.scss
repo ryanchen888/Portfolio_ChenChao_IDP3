@@ -6,18 +6,35 @@ h2 {
 }
 
 #pic-zoom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-items: center;
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   margin-top: 30px;
 }
 
 #pic-zoom img {
   border-radius: 10px;
+  margin-top: 20px;
+}
+
+#pic-zoom div {
+  width: calc(100%);
 }
 
 #pic-zoom img:hover {
   opacity: 70%;
+}
+
+@media screen and (min-width: 375px) and (max-width:767px) {
+  #pic-zoom div {
+    width: calc(50% - 20px);
+    margin-right: 15px;
+  }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -30,7 +47,8 @@ h2 {
     display: flex;
   }
 
-  #pic1 {
+  #pic-zoom div {
+    width: calc(33.33% - 20px); 
     margin-right: 20px;
   }
   
@@ -39,7 +57,7 @@ h2 {
 .lightbox {
     display: none;
     position: fixed;
-    top: 0;
+    top: 30%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -54,7 +72,7 @@ h2 {
     max-width: 90%;
     max-height: 90%;
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

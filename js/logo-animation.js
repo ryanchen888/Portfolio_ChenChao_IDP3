@@ -28,7 +28,7 @@
             pin: true,
             scrub: 1,
             markers: false,
-            start: "center center"
+            start: "top top"
         },
         onUpdate: render
     })
