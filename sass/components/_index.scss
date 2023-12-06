@@ -1,3 +1,8 @@
-// Import variables from the main variables partial
-@forward 'header';
-@forward 'box';
+@forward '_home';
+@forward '_header';
+@forward '_content';
+@forward '_logo';
+@forward '_about';
+@forward '_portfolio';
+@forward '_contact';
+

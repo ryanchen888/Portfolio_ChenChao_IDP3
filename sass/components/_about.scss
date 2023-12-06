@@ -1,0 +1,35 @@
+#icons {
+    margin: 30px;
+    display: flex;
+}
+
+#icons img {
+    width: 50px;
+    margin: 30px;
+}
+
+#about h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+#right-side {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
