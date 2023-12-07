@@ -2,12 +2,11 @@
     background-color: #3b3b3b;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     width: 100%;
-    overflow-y: auto;
+    flex-grow: 1;
+    // overflow: hidden;
 }
-
-
 
 #top {
     display: flex;
@@ -24,23 +23,24 @@
 
 #top h2 {
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 10px;
-    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
     padding: 5px;
+    border-radius: 10px;
     text-align: center;
     box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
 }
 
 #top h3 {
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8px;
-    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
     text-align: center;
-    box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
+    // box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
 }
 
 button {
@@ -53,7 +53,7 @@ button {
     color: #fff;
     position: relative;
     border: 1px;
-    overflow: hidden;
+    // overflow: hidden;
     z-index: 1;
     box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
     transition: all .5s ease;
@@ -66,8 +66,8 @@ button {
 }
 
 #burger-con {
-    position: absolute;
-    top: 100%;
+    top: 10%;
+    left: 10%;
     display: none;
 }
      
@@ -77,7 +77,7 @@ button {
 
 #main-nav {
     position: relative;
-    top: 5%;
+    top: 2%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -86,16 +86,16 @@ button {
 
 #main-nav ul li a {
     display: block;
-    padding: 10px 0 10px 0;
-    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     color: #fff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #000000;
+    opacity: 90%;
 }
 
 #main-nav ul li a:hover {
-    color: #8f8f8f;
+    color: #060606;
 }
 
 #main-nav ul {
@@ -106,21 +106,25 @@ button {
 
 
 #info {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     list-style: none;
     align-items: center;
 }
 
 #info img {
-    width: 20px;
-    margin: 5px;
+    width: 30px;
+    margin: 15px;
+}
+
+#info img:hover {
+    opacity: 50%;
 }
 
 @media screen and (min-width: 376px) and (max-width: 767px) {
     #top img {
         border-radius: 50%;
-        width: 50%;
+        width: 35%;
         box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
         margin-top: 100px;
     }
@@ -130,24 +134,21 @@ button {
         display: flex;
         flex-direction: column;
         position: fixed;
-        width: 30%;
-        height: 100%;
-        // overflow-y: auto;
+        width: 40%;
+        height: 100vh;
     }
 
     #top h2 {
         color: #fff;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 10px;
+        font-size: 30px;
         margin-top: 20px;
         text-align: center;
     }
     
     #top h3 {
         color: #fff;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 8px;
-        margin-top: 10px;
+        font-size: 20px;
+        margin-top: 20px;
         text-align: center;
     }
 
@@ -160,58 +161,81 @@ button {
     }
 
     #main-nav ul li a {
-       
-        margin-bottom: 20px;
         background-color: #3b3b3b;
-    }
-
-    #top h3 {
-        margin-bottom: 80px;
+        width: 7.5em;
+        height: 2.5em;
+        border-radius: 30em;
+        font-size: 18px;
+        color: #fff;
+        position: relative;
+        border: 1px;
+        overflow: hidden;
+        z-index: 1;
+        margin-bottom: 15px;
+        box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+        transition: all .5s ease;
     }
 
     #info {
-        margin-top: 500px;
+        margin-top: 30px;
     }
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1200px){
 
     #top img {
         border-radius: 50%;
-        width: 50%;
+        width: 30%;
         box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
-        margin-top: 100px;
+        // margin-top: 100px;
+        top: 50%;
     }
     
     #sidenav {
-        background-color: #3b3b3b;
-        display: flex;
         flex-direction: column;
         position: fixed;
-        width: 30%;
-        height: 100%;
-        // overflow-y: auto;
+        // overflow: hidden;
+        width: 40%;
+        height: 100vh;
+    }
+
+    #main-nav {
+        position: relative;
+        top: 2%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     
     #main-nav ul li a {
-       font-size: 25px;
-        margin-bottom: 20px;
         background-color: #3b3b3b;
+        width: 8em;
+        height: 2.5em;
+        border-radius: 35em;
+        font-size: 25px;
+        color: #fff;
+        // position: relative;
+        border: 1px;
+        overflow: hidden;
+        z-index: 1;
+        box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+        transition: all .5s ease;
+        margin-bottom: 50px;
     }
 
     #top h2 {
         color: #fff;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 16px;
-        margin-top: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 30px;
+        margin-top: 40px;
         text-align: center;
     }
     
     #top h3 {
         color: #fff;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 12px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 25px;
         margin-top: 10px;
         text-align: center;
     }
@@ -223,6 +247,121 @@ button {
     #burger-con {
         display: block;
     }
+    
+    #info {
+        margin: 0 auto;
+    }
 
+}
 
+@media screen and (min-width: 1200px) {
+    #sidenav {
+        background-color: #3b3b3b;
+        flex-direction: column;
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        flex-grow: 1;
+        // overflow: hidden;
+    }
+    
+    #top {
+        // display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #top img {
+        border-radius: 50%;
+        width: 40%;
+        box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
+        margin-top: 30px;
+    }
+    
+    #top h2 {
+        color: #fff;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+        margin-top: 30px;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
+    }
+    
+    #top h3 {
+        color: #fff;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 5px;
+        text-align: center;
+        // box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
+    }
+    
+    button {
+        display: none;
+    }
+    
+    
+    #burger-con {
+        top: 10%;
+        left: 10%;
+        display: block;
+    }
+         
+    
+    #main-nav {
+        position: relative;
+        top: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #main-nav ul li a {
+        background-color: #3b3b3b;
+        width: 8em;
+        height: 2.5em;
+        border-radius: 35em;
+        font-size: 20px;
+        color: #fff;
+        // position: relative;
+        border: 1px;
+        overflow: hidden;
+        z-index: 1;
+        box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+        transition: all .5s ease;
+        margin-bottom: 20px;
+    }
+    
+    #main-nav ul li a:hover {
+        color: #060606;
+    }
+    
+    #main-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    #info {
+        margin: 0 auto;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    #info img {
+        width: 30px;
+        margin: 15px;
+    }
+    
+    #info img:hover {
+        opacity: 50%;
+    }
 }
