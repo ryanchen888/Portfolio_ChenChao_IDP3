@@ -1,3 +1,5 @@
+(() => {
+
 gsap.registerPlugin(ScrollTrigger);
 
     gsap.from("#left-side", {
@@ -21,3 +23,4 @@ gsap.registerPlugin(ScrollTrigger);
             toggleActions: "play none none reverse", 
         },
     });
+})();

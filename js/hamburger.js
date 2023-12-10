@@ -1,3 +1,5 @@
+(() => {
+
 (function(){
 	"use strict";	
 	console.log("fired");
@@ -8,4 +10,6 @@
 		button.classList.toggle("expanded");
 	};
 	button.addEventListener("click", hamburgerMenu, false);		
+})();
+
 })();

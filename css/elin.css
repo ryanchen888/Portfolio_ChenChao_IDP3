@@ -1,0 +1,188 @@
+
+body {
+    background-color: #ededed;
+    scroll-behavior: smooth;
+}
+/* header */
+header {
+    height: 500px;
+}
+
+#elin-logo {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 10%;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px #b8b8b8, -3px -3px 6px #fff;
+}
+
+#elin-nav {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+#elin-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#elin-nav li {
+    margin-right: 50px; 
+}
+
+#elin-nav a {
+    text-decoration: none;
+    color: #333; 
+    padding: 20px;
+    background-color: #ededed;
+    box-shadow: 3px 3px 6px #b8b8b8, -3px -3px 6px #fff;
+    font-size: 16px; 
+    border-radius: 20px;
+}
+
+#elin-nav a:hover {
+    color: #fff;
+    background-color: #333;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* about */
+#about-bg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 居中子元素 */
+    text-align: center; /* 居中文本 */
+}
+
+#about-bg img {
+    width: 100%; /* 使图片占据整个容器宽度 */
+    height: auto; /* 保持图片宽高比 */
+    border-radius: 10px; /* 圆角边框 */
+}
+
+#story-title {
+    position: absolute;
+    margin-top: 40px; /* 调整标题和文本的间距 */
+    left: 30%;
+    text-shadow: 1px 1px 1px #333;
+    color: #fff;
+    font-size: 30px;
+}
+
+#story {
+    position: absolute;
+    margin-top: 90px;
+    left: 50%;
+    text-shadow: 1px 1px 1px #333;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+
+
+/* products */
+.elin-product {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.elin-product .card {
+    position: relative;
+    max-width: 300px;
+    height: 270px;
+    border-radius: 50px;
+    background-color: #ededed;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 6px #b8b8b8, -3px -3px 6px #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.elin-product .card:hover {
+    height: 450px;
+}
+
+.elin-product .card .imBx {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.elin-product .card .imBx img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+}
+
+.elin-product .card .content {
+    position: relative;
+    padding: -140px;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.elin-product .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 20px;
+    transition-delay: 0.3s;
+}
+
+/* 确保 #pics 使用 Flex 布局 */
+#elin-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 500px; /* 调整 elin-products 与 elin-pics 之间的间距 */
+}
+
+#pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pics img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+
+
+
