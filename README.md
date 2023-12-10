@@ -51,7 +51,7 @@ To view my portfolio, simply open the `index.html` file in a web browser. The po
 - [View More](motion_graphic.html)
 
 ### 5. Demo
-- ![Demo](images/pf05.png)
+- ![Demo](images/pf05.jpg)
 - [View More](demo reel.html)
 
 ### 6. Study Case
