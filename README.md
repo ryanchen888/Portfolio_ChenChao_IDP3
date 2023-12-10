@@ -1,40 +1,70 @@
-# Portfolio_ChenChao_IDP3
-# Front-end Developer Portfolio Site Build
-
-Welcome to my Front-End Developer Portfolio! This repository showcases my work, skills, and experiences as a front-end developer and creative professional.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Portfolio](#projects)- [Skills](#skills)
-- [Contact](#contact)
-- [License](#license)
+# Chen Chao - Portfolio
 
 ## Introduction
 
-Hello, I'm ChenChao, a creative born in 1987 with a diverse skill set and a passion for bringing 
-digital experiences to life. Hailing from China, I've embarked on a multifaceted journey that has led me 
-to explore the worlds of photography, motion design, and front-end development.
+Welcome to my portfolio! This repository contains the source code for my portfolio website showcasing my work as a Photographer, Motion Graphic Designer, and Frontend Designer.
 
+## Table of Contents
 
-## Portfolio
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Projects](#projects)
+- [Contact](#contact)
+- [License](#license)
 
-Projects: Motion Design projects - Photo works - Front-end developer works.
+## Getting Started
+
+To view my portfolio, simply open the `index.html` file in a web browser. The portfolio is designed with a mobile-first approach, ensuring a responsive experience on various devices.
+
+## Features
+
+- **Dynamic Animations:** Utilizes GSAP (GreenSock Animation Platform) for dynamic animations throughout the site.
+- **Responsive Design:** Designed with a mobile-first approach, ensuring responsiveness on all screen sizes.
+- **Project Showcase:** Displays a collection of my projects with interactive lightbox features.
+- **Contact Form:** Allows visitors to reach out through a simple contact form.
+
+## Technologies Used
+
+- HTML5
+- CSS3 (SASS for styling)
+- JavaScript (ES6+)
+- GSAP (GreenSock Animation Platform)
+- Lightbox for image display
+
+## Projects
+
+### 1. VOCO Earbuds
+- ![VOCO Earbuds](images/pf01.jpg)
+- [View More](earbuds.html)
+
+### 2. Elin
+- ![Elin](images/pf02.png)
+- [View More](elin.html)
+
+### 3. Animation Project
+- ![Animation Project](images/pf03.webp)
+- [View More](po_logo.html)
+
+### 4. Motion Graphic
+- ![Motion Graphic](images/pf04.jpg)
+- [View More](motion_graphic.html)
+
+### 5. Demo
+- ![Demo](images/pf02.png)
+- [View More](demo reel.html)
+
+### 6. Study Case
+- ![Study Case](images/pf06.jpg)
+- [View More](case study.pdf)
 
 ## Contact
 
-1. Email: `cc43585566@hotmail.com`
-2. Linked-in: `cc43585566@hotmail.com`
-3. Github: `cyanchen888`
-4. Facebook: `www.facebook-179770.com`
-5. Twitter: `RyanFront_endDesigner`
-## History
+Feel free to reach out to me for any inquiries or collaborations. You can use the contact form on my website or connect with me through the following channels:
 
-TODO: Write history
-
-## Credits
-
-All images are copyright by ChenChao
+- Email: [c_chen179770@fanshaweonline.ca]
+- GitHub: [GitHub Profile](https://github.com/ryanchen888/Portfolio_ChenChao_IDP3.git)
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
