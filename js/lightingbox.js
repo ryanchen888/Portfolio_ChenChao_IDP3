@@ -1,3 +1,4 @@
+(() => {
 document.addEventListener('DOMContentLoaded', function() {
 	var lightboxTriggers = document.querySelectorAll('.lightbox-trigger');
 	var lightbox = document.getElementById('lightbox');
@@ -15,3 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
 		lightbox.style.display = 'none';
 	});
 });
+})();
