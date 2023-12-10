@@ -1,0 +1,44 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- 主机： 127.0.0.1:3306
+-- 生成日期： 2023-12-10 21:52:26
+-- 服务器版本： 8.0.31
+-- PHP 版本： 8.0.26
+
+SET FOREIGN_KEY_CHECKS=0;
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- 数据库： portfolio
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 contact
+--
+
+DROP TABLE IF EXISTS contact;
+CREATE TABLE IF NOT EXISTS contact (
+  id int NOT NULL,
+  firstname int NOT NULL,
+  lastname int NOT NULL,
+  email int NOT NULL,
+  comments int NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+SET FOREIGN_KEY_CHECKS=1;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
