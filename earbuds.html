@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/earbuds.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- ScrollTo plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script defer type="module" src="js/earbuds-animation_1.js"></script>
+    <script defer type="module" src="js/earbuds-animation_2_scrollTrigger.js"></script>
+    <script defer type="module" src="js/earbuds-animation_2.js"></script>
+    <script defer type="module" src="js/earbuds-main.js"></script>
+    <script type="module" src="earbuds-module.js"></script>
     <title>VOCO Earbuds</title>
 </head>
-<body>
+<body id="earbuds_body">
     <header id="main-nav">
         <div class="box_nav">
             <div class="grid-con">
                 <a id="back-button" href="index.html">BACK</a>
-                <img id="logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-2 l-col-start-2 l-col-end-3" src="images/logo.svg" alt="">
+                <img id="earbuds_logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-2 l-col-start-2 l-col-end-3" src="images/logo.svg" alt="">
                 <ul id="nav" class="col-start-2 col-end-5 m-col-start-4 m-col-end-10 l-col-start-6 l-col-end-12">
                     <li><a href="#earbuds.html">HOME</a></li>
                     <li><a href="#video">VIDEO</a></li>
                     <li><a href="#HP-box">HOT-SPOTS</a></li>
                     <li><a href="#x-ray">X-RAY</a></li>
-                    <li><a href="#pics">PICS</a></li>
+                    <li><a href="#earbuds_pics">PICS</a></li>
                 </ul>    
             </div>
         </div>
@@ -117,23 +131,23 @@
     <div id="title" class="grid-con">
         <h2 class="col-span-full">WE ARE COMMITTED TO EXCELLENCE</h2>
     </div>
-    <div class="box_pic" id="pics">
-        <div id="pic1">
+    <div class="earbuds_pic" id="earbuds_pics">
+        <div id="earbuds_pic1">
             <img class="lightbox-trigger" src="images/1.jpg" alt="">
         </div>
-        <div id="pic2">
+        <div id="earbuds_pic2">
             <img class="lightbox-trigger" src="images/2.jpg" alt="">
         </div>
-        <div id="pic3">
+        <div id="earbuds_pic3">
             <img class="lightbox-trigger" src="images/3.jpg" alt="">
         </div>
-        <div id="pic4">
+        <div id="earbuds_pic4">
             <img class="lightbox-trigger" src="images/4.jpg" alt="">
         </div>
-        <div id="pic5">
+        <div id="earbuds_pic5">
             <img class="lightbox-trigger" src="images/5.jpg" alt="">
         </div>
-        <div id="pic6">
+        <div id="earbuds_pic6">
             <img class="lightbox-trigger" src="images/6.jpg" alt="">
         </div>
     </div>
@@ -175,19 +189,7 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <!-- ScrollTrigger plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <!-- ScrollTo plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
-    <script src="js/earbuds-animation_1.js"></script>
-    <script src="js/earbuds-animation_2_scrollTrigger.js"></script>
-    <script src="js/earbuds-animation_2.js"></script>
-    <script src="js/earbuds-main.js"></script>
+    
     
 </body>
 </html>
