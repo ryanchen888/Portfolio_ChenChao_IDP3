@@ -1,18 +1,4 @@
-body {
-    background-color: #ededed;
-}
-
-header {
-    text-align: center;
-}
-
-header p {
-    font-family:'Noto Sans Georgian', sans-serif;
-    color: #3b3b3b;
-    margin-bottom: 30px;
-}
-
-#pf_logo_title {
+#demo_title {
     display: inline-block;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -25,18 +11,12 @@ header p {
     box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
 }
 
-#player-container {
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
-}
-
-#mg_back-button {
+#demo_back-button {
     text-align: center;
     margin-top: 50px;
 }
 
-#mg_back-button a {
+#demo_back-button a {
     font-family:'Noto Sans Georgian', sans-serif;
     font-size: 35px;
     background-color: #ededed;
@@ -46,7 +26,7 @@ header p {
     box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
 }
 
-#mg_back-button a:hover {
+#demo_back-button a:hover {
     color: #fff;
     border-radius: 35%;
     margin: 20px;

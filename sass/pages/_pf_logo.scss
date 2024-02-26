@@ -31,12 +31,12 @@ header p {
     box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
 }
 
-#back-button {
+#logo_back-button {
     text-align: center;
     margin-top: 50px;
 }
 
-#back-button a {
+#logo_back-button a {
     font-family:'Noto Sans Georgian', sans-serif;
     font-size: 35px;
     background-color: #ededed;
@@ -46,8 +46,10 @@ header p {
     box-shadow: 2px 2px 4px #898989, -3px -3px 4px #fff;
 }
 
-#back-button a:hover {
+#logo_back-button a:hover {
     color: #fff;
+    border-radius: 35%;
+    margin: 20px;
     background-color: #3b3b3b;
     transition: 0.3s ease-in-out;
 }

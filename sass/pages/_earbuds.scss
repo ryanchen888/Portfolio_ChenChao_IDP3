@@ -63,22 +63,22 @@
     width: 60px;
   }
   
-  #nav {
+  #earbuds_nav {
     display: flex;
     list-style: none;
   }
   
-  #nav li a {
+  #earbuds_nav li a {
     color: #fff;
   }
   
-  #nav li a:hover {
+  #earbuds_nav li a:hover {
     color: #8f8f8f;
     transition: 0.3s ease-in-out;
   }
   
   @media (max-width: 390px) {
-    #nav li {
+    #earbuds_nav li {
       margin-top: 20px;
       margin-right: 5px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -86,7 +86,7 @@
     }
   }
   @media (min-width: 391px) and (max-width: 768px) {
-    #nav li {
+    #earbuds_nav li {
       margin-top: 20px;
       margin-right: 15px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -94,7 +94,7 @@
     }
   }
   @media (min-width: 769px) and (max-width: 1200px) {
-    #nav li {
+    #earbuds_nav li {
       margin-top: 20px;
       margin-right: 20px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -102,7 +102,7 @@
     }
   }
   @media (min-width: 1200px) {
-    #nav li {
+    #earbuds_nav li {
       margin-top: 20px;
       margin-right: 20px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -117,45 +117,45 @@
     --plyr-controls-spacing: 15px;
   }
   
-  #video h2 {
+  #earbuds_video h2 {
     color: #fff;
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
     margin-bottom: 30px;
   }
   
-  #video h3 {
+  #earbuds_video h3 {
     color: #fff;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     margin-bottom: 50px;
   }
   
-  #video {
+  #earbuds_video {
     margin-top: 200px;
   }
   
   @media screen and (min-width: 390px) and (max-width: 768px) {
-    #video h2 {
+    #earbuds_video h2 {
       font-size: 60px;
     }
-    #video h3 {
+    #earbuds_video h3 {
       font-size: 30px;
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1200px) {
-    #video h2 {
+    #earbuds_video h2 {
       font-size: 80px;
     }
-    #video h3 {
+    #earbuds_video h3 {
       font-size: 40px;
     }
   }
   @media screen and (min-width: 1201px) {
-    #video h2 {
+    #earbuds_video h2 {
       font-size: 100px;
     }
-    #video h3 {
+    #earbuds_video h3 {
       font-size: 50px;
     }
   }
