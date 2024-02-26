@@ -2,15 +2,15 @@
     background-color: #000000;
   }
   
-  #back-button {
+  #earbuds_back-button {
     font-family:'Noto Sans Georgian', sans-serif;
     font-size: 20px;
     color: #ededed;
-    background-color: #242424;
+    background-color: #000000;
     text-align: center;
     border-radius: 10px;
     padding-top: 20px;
-    box-shadow: -3px -3px 6px #3b3b3b, 3px 3px 6px #3b3b3b ;
+    box-shadow: -3px -3px 6px #282828, 3px 3px 6px #282828 ;
   }
   
   .animation_1 {
@@ -467,7 +467,7 @@
     #imageCon {
       position: relative;
       max-width: 1200px;
-      height: 50vh;
+      height: 100vh;
     }
     .slideImage {
       position: absolute;
