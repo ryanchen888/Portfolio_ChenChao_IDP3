@@ -1,5 +1,5 @@
 #sidenav {
-    background-color: #3b3b3b;
+    background-color: #23969a;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -17,7 +17,7 @@
 #top img {
     border-radius: 50%;
     width: 40%;
-    box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
+    box-shadow: 3px 3px 8px #1a7376, -3px -3px 6px #1a7376;
     margin-top: 30px;
 }
 
@@ -29,7 +29,7 @@
     padding: 5px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
+    box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
 }
 
 #top h3 {
@@ -44,7 +44,7 @@
 }
 
 button {
-    background-color: #3b3b3b;
+    background-color: #23969a;
     width: 5em;
     height: 2.5em;
     border-radius: 30em;
@@ -55,13 +55,13 @@ button {
     border: 1px;
     overflow: hidden;
     z-index: 1;
-    box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+    box-shadow: 6px 6px 12px #1a7376, -3px -3px 6px #1a7376;
     transition: all .5s ease;
     margin-bottom: 50px;
 }
 
 #button:hover {
-    background-color: #757575;
+    background-color: #12c1d1;
     transition: 0.5s ease-in-out;
 }
 
@@ -125,12 +125,12 @@ button {
     #top img {
         border-radius: 50%;
         width: 35%;
-        box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
         margin-top: 100px;
     }
 
     #sidenav {
-        background-color: #3b3b3b;
+        background-color: #23969a;
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -161,7 +161,7 @@ button {
     }
 
     #main-nav ul li a {
-        background-color: #3b3b3b;
+        background-color: #23969a;
         width: 7.5em;
         height: 2.5em;
         border-radius: 30em;
@@ -172,7 +172,7 @@ button {
         overflow: hidden;
         z-index: 1;
         margin-bottom: 15px;
-        box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
         transition: all .5s ease;
     }
 
@@ -187,7 +187,7 @@ button {
     #top img {
         border-radius: 50%;
         width: 30%;
-        box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
         // margin-top: 100px;
         top: 50%;
     }
@@ -209,7 +209,7 @@ button {
     }
     
     #main-nav ul li a {
-        background-color: #3b3b3b;
+        background-color: #23969a;
         width: 7em;
         height: 2em;
         border-radius: 35em;
@@ -219,7 +219,7 @@ button {
         border: 1px;
         overflow: hidden;
         z-index: 1;
-        box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
         transition: all .5s ease;
         margin-bottom: 20px;
     }
@@ -257,7 +257,7 @@ button {
 
 @media screen and (min-width: 1200px) {
     #sidenav {
-        background-color: #3b3b3b;
+        background-color: #23969a;
         flex-direction: column;
         position: fixed;
         width: 30%;
@@ -275,7 +275,7 @@ button {
     #top img {
         border-radius: 50%;
         width: 40%;
-        box-shadow: 3px 3px 8px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
         margin-top: 30px;
     }
     
@@ -287,7 +287,7 @@ button {
         padding: 5px;
         border-radius: 10px;
         text-align: center;
-        box-shadow: 3px 3px 6px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
     }
     
     #top h3 {
@@ -323,7 +323,7 @@ button {
     }
     
     #main-nav ul li a {
-        background-color: #3b3b3b;
+        background-color: #23969a;
         width: 8em;
         height: 2.5em;
         border-radius: 35em;
@@ -333,7 +333,7 @@ button {
         border: 1px;
         overflow: hidden;
         z-index: 1;
-        box-shadow: 6px 6px 12px #000000, -3px -3px 6px #7f7f7f;
+        box-shadow: 6px 6px 12px #0e7a7e, -3px -3px 6px #2cb3b8;
         transition: all .5s ease;
         margin-bottom: 20px;
     }
